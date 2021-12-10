@@ -1,0 +1,23 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Alex Terieur",
+        "email": "alex.terieur@example.com",
+        "phone": "0000000000"
+    }, {
+        "id": 2,
+        "name": "Alain Terieur",
+        "email": "alain.terieur@example.com",
+        "phone": "0000000000"
+    }, {
+        "id": 3,
+        "name": "Agathe Zeblouze",
+        "email": "agathe.zeblouze@example.com",
+        "phone": "0000000000"
+    }, {
+        "id": 4,
+        "name": "Yvan Samob",
+        "email": "yvan.samob@example.com",
+        "phone": "0000000000"
+    }]
+}

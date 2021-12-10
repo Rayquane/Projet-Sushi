@@ -1,0 +1,30 @@
+{
+    
+    "users": [{
+        "id": 1,
+
+     "nom": "Tasty Blend",
+
+     "pieces": 12,
+
+     "composition": [
+
+        {"nom":"Maki Salmon Roll","quantite": 3},
+ 
+        {"nom":"Spring Saumon Avocat","quantite": 3},
+ 
+        {"nom":"Maki Cheese Avocat","quantite": 6},
+ 
+        {"nom":"California Saumon Avocat","quantite": 3},
+ 
+        {"nom":"Edamame/Salade de chou","quantite": 1}
+ 
+      ],
+
+     "saveurs": ["saumon","avocat","cheese"],
+
+     "prix": 12.50,
+
+     "image": "tasty-blend"
+    }]
+}
