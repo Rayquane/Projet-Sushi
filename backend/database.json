@@ -1,0 +1,124 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "nom": "misoubi",
+      "pieces": 999,
+      "composition": [
+        {
+          "nom": "Maki Salmon Roll",
+          "quantite": 3
+        },
+        {
+          "nom": "Spring Saumon Avocat",
+          "quantite": 3
+        },
+        {
+          "nom": "Maki Cheese Avocat",
+          "quantite": 6
+        },
+        {
+          "nom": "California Saumon Avocat",
+          "quantite": 3
+        },
+        {
+          "nom": "Edamame/Salade de chou",
+          "quantite": 1
+        }
+      ],
+      "saveurs": [
+        "mi",
+        "sou",
+        "bi",
+        "spam"
+      ],
+      "prix": 0.5,
+      "image": "tasty-blend"
+    }
+  ],
+
+
+
+
+
+
+
+  "paniers": [{
+    "id": 1,
+    "nom": "misoubi",
+    "pieces": 999,
+    "composition": [
+      {
+        "nom": "Maki Salmon Roll",
+        "quantite": 3
+      },
+      {
+        "nom": "Spring Saumon Avocat",
+        "quantite": 3
+      },
+      {
+        "nom": "Maki Cheese Avocat",
+        "quantite": 6
+      },
+      {
+        "nom": "California Saumon Avocat",
+        "quantite": 3
+      },
+      {
+        "nom": "Edamame/Salade de chou",
+        "quantite": 1
+      }
+    ],
+    "saveurs": [
+      "mi",
+      "sou",
+      "bi",
+      "spam"
+    ],
+    "prix": 0.5,
+    "image": "tasty-blend"
+  
+  },
+  
+  
+  {
+
+  
+    "id": 1,
+    "nom": "misoubi le second",
+    "pieces": 999,
+    "composition": [
+      {
+        "nom": "Maki Salmon Roll",
+        "quantite": 3
+      },
+      {
+        "nom": "Spring Saumon Avocat",
+        "quantite": 3
+      },
+      {
+        "nom": "Maki Cheese Avocat",
+        "quantite": 6
+      },
+      {
+        "nom": "California Saumon Avocat",
+        "quantite": 3
+      },
+      {
+        "nom": "Edamame/Salade de chou",
+        "quantite": 1
+      }
+    ],
+    "saveurs": [
+      "mi",
+      "sou",
+      "bi",
+      "spam"
+    ],
+    "prix": 0.5,
+    "image": "tasty-blend"
+  }
+
+
+]
+}
