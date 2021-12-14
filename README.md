@@ -3,7 +3,7 @@
 ## Présentation
 SushiShop est une application visant à permettre à un client de commander un plat de nourriture à distance.
 
-![screenshot](https://user-images.githubusercontent.com/78152375/145639766-362ff446-a788-4d85-adb0-49e1709b1b5b.png)
+![screenshot](https://user-images.githubusercontent.com/78152375/145978823-aac7d44e-eec8-4d3f-aa8f-e3ae9f0435bc.png)
 
 ## Fonctionnement
 L’appli fonctionne à l’aide de MongoDB, qui contient les bases de données, et de l’API, qui s’affiche sur la vue HTML. 
