@@ -21,7 +21,6 @@ Page du panier :
 
 
 
-Nous expliquerons plus en détail le code quand il sera terminé.
 
 
 
