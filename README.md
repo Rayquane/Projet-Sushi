@@ -23,9 +23,16 @@ Page du panier :
 ## Explication du code
 
 Contenu de panier.component.ts
+
 ![screenshot](https://user-images.githubusercontent.com/78152375/154743338-427318a4-6654-4554-ba08-eb0198fa0984.PNG)
+
 Les lignes de 23 à 25 permettent de déclarer une fonction permettant de supprimer les menus du panier.
 
+Contenu de accueil.component.html
+
+![screenshot](https://user-images.githubusercontent.com/78152375/154757252-d4848ba1-ef93-4c40-baf2-1ecb525e9c7a.PNG)
+
+Ce fichier sert à la visualisation de l'accueil, possédant les menus à ajouter au panier.
 
 ## Evil user story
 
