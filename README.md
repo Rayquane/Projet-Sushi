@@ -20,6 +20,13 @@ Page du panier :
 - 1 bouton "supprimer " à coté des menus dans le panier pour les retirer
 
 
+## Explication du code
+
+Contenu de panier.component.ts
+![screenshot](https://user-images.githubusercontent.com/78152375/154743338-427318a4-6654-4554-ba08-eb0198fa0984.PNG)
+Les lignes de 23 à 25 permettent de déclarer une fonction permettant de supprimer les menus du panier.
+
+
 ## Evil user story
 
 ![screenshot](https://user-images.githubusercontent.com/78152375/154741054-536cfdf5-573c-4ae9-a30a-1306abaa90dd.PNG)
