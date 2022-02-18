@@ -383,6 +383,20 @@
       "image": "fresh-mix"
     }
   ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "paniers": [
     {
       "id": 4,
@@ -496,13 +510,13 @@
       "id": 11,
       "nom": "California Dream",
       "pieces": 24,
-      "composition": {
-        "California Saumon Avocat": 6,
-        "California Crevette": 6,
-        "California Thon Cuit Avocat": 6,
-        "California Chicken Katsu": 6,
-        "Edamame / Salade de chou": 1
-      },
+      "composition": [
+      {"nom": "California Saumon Avocat", "quantite": 6},
+      {"nom": "California Crevette", "quantite": 6},
+      {"nom": "California Thon Cuit Avocat", "quantite": 6},
+      {"nom": "California Chicken Katsu", "quantite": 6},
+      {"nom": "Edamame / Salade de chou", "quantite": 1
+      }],
       "saveurs": [
         "spicy",
         "saumon",
@@ -518,14 +532,14 @@
       "id": 12,
       "nom": "Gourmet Mix",
       "pieces": 22,
-      "composition": {
-        "Spring tataki Saumon": 6,
-        "Signature Dragon Roll": 4,
-        "California French Touch": 3,
-        "California French salmon": 6,
-        "California Yellowtail Ponzu": 3,
-        "Edamame / Salade de chou": 1
-      },
+      "composition": [{
+        "nom": "Spring tataki Saumon", "quantite": 6},
+        {"nom":"Signature Dragon Roll", "quantite": 4},
+        {"nom": "California French Touch", "quantite": 3},
+        {"nom": "California French salmon", "quantite": 6},
+        {"nom": "California Yellowtail Ponzu", "quantite": 3},
+        {"nom": "Edamame / Salade de chou", "quantite": 1
+      }],
       "saveurs": [
         "coriande",
         "spicy",
@@ -541,14 +555,14 @@
       "id": 13,
       "nom": "Fresh Mix",
       "pieces": 22,
-      "composition": {
-        "Signature Rock'n Roll": 4,
-        "Maki Salmon Roll": 6,
-        "California Pacific": 6,
-        "Sushi Salmon": 4,
-        "Sushi Saumon Tsukudani": 2,
-        "Edamame / Salade de chou": 1
-      },
+      "composition": [{
+        "nom": "Signature Rock'n Roll", "quantite": 4},
+        {"nom": "Maki Salmon Roll", "quantite": 6},
+        {"nom": "California Pacific", "quantite": 6},
+        {"nom": "Sushi Salmon", "quantite": 4},
+        {"nom": "Sushi Saumon Tsukudani", "quantite": 2},
+        {"nom": "Edamame / Salade de chou", "quantite": 1
+      }],
       "saveurs": [
         "spicy",
         "saumon",
