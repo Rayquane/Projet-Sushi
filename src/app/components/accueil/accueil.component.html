@@ -1,0 +1,79 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Pieces</th>
+        <th scope="col">Compositions</th>
+        <th scope="col">Saveurs</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Images</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let menu of menus">
+        <td>{{menu.id}}</td>
+        <td>{{menu.nom}}</td>
+        <td>{{menu.pieces}}</td>
+  
+        <td>
+          <span *ngFor="let ingredient of menu.composition">
+            {{ingredient.nom}}
+          </span></td>
+  
+        <td>{{menu.saveurs}}</td>
+        <td>{{menu.prix}}</td>
+        <td>{{menu.images}}</td>
+        
+        <td><span class="text-primary" (click)="(menu.id)">Ajouter au panier</span></td>
+      </tr>
+
+
+
+
+      
+      <script>
+        const header = document.querySelector('header');
+        const section = document.querySelector('section');
+      
+        function showBoxes(jsonObj) {
+          var heroes = jsonObj['composition'];
+      
+          for (var i = 0; i < boxes.length; i++) {
+            var myArticle = document.createElement('article');
+            var myH2 = document.createElement('h2');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myPara3 = document.createElement('p');
+            var myList = document.createElement('ul');
+      
+            myH2.textContent = boxes[i].nom;
+            myPara1.textContent = 'ID: ' + boxes[i].id;
+            myPara2.textContent = 'Prix: ' + boxes[i].prix;
+            myPara3.textContent = 'Composition:';
+      
+            var Composition = boxes[i].composition;
+            for (var j = 0; j < Composition.length; j++) {
+              var listItem = document.createElement('li');
+              listItem.textContent = Composition[j];
+              myList.appendChild(listItem);
+            }
+      
+            myArticle.appendChild(myH2);
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myPara3);
+            myArticle.appendChild(myList);
+      
+            section.appendChild(myArticle);
+          }
+        }
+      
+        </script>
+
+
+
+
+
+    </tbody>
+  </table>

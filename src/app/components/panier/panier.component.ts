@@ -1,33 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { CrudService } from "./crud.service";
-
+import { CrudService } from "../../crud.service";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-panier',
+  templateUrl: './panier.component.html',
+  styleUrls: ['./panier.component.css']
 })
+export class PanierComponent implements OnInit {
 
-export class AppComponent implements OnInit {
+
   title = 'users-app';
-  Users: any = [];
+  paniers: any = [];
   constructor(public crudService: CrudService) { }
   ngOnInit() {
-    this.fetchMenus()
     this.fetchPaniers()
   }  
-  fetchMenus() {
-    return this.crudService.getMenus().subscribe((data: {}) => {
-      this.Users = data;
-    })    
-  }
-  
-
-
-
   fetchPaniers() {
     return this.crudService.getPaniers().subscribe((data: {}) => {
-      this.Users = data;
+      this.paniers = data;
     })    
   }
   remove(id: string) {
@@ -35,5 +25,7 @@ export class AppComponent implements OnInit {
       this.fetchPaniers()
     })
   }
+
+  
 }
 
